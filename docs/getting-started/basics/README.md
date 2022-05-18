@@ -214,6 +214,7 @@ for (let i = 0; i < 3; i++) {
   div.style.height = "50px";
   div.style.width = "50px";
   div.style.background = "white";
+  div.style.position = "relative";
   document.body.append(div);
 
   div.addEventListener("click", () => sheet.sequence.play());
